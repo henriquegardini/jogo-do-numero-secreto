@@ -1,4 +1,4 @@
-let numeroSecreto = geraNumeroAleatorio(10);
+let numeroSecreto = geraNumeroAleatorio(100);
 console.log(`O número secreto é o ${numeroSecreto}`);
 let chute;
 let tentativa = 1;
@@ -64,5 +64,5 @@ function escreverTexto(tag, texto) {
 
 function exibirMensagemInicial () {
     escreverTexto("h1", "Jogo do número secreto.");
-    escreverTexto("p", "Escolha um número entre 1 e 10.");
+    escreverTexto("p", "Escolha um número entre 1 e 100.");
 }
